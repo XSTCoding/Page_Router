@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Router'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of Router.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/cj/Router'
+  s.homepage         = 'git@github.com:XSTCoding/Page_Router.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cj' => 'chengj@chs520.onaliyun.com' }
-  s.source           = { :git => 'https://github.com/cj/Router.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:XSTCoding/Page_Router.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
